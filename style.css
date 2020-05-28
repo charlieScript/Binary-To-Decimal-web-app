@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(61, 180, 61, 0.507);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: rgb(33, 37, 25);
+    padding: 1rem;
+    text-align: center;
+    color: rgb(214, 208, 208);
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+}
+
+h3 {
+    margin: 1rem 0;
+    color: rgb(39, 32, 32);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 0.5rem;
+    margin: 0.8rem 0 0.2rem;
+}
+
+input:focus {
+    border: 2px solid green;
+}
+
+input[type="submit"] {
+    color: rgb(214, 208, 208);
+    background-color: rgb(33, 37, 25);
+    border: none;
+    padding: 0.6rem;
+    margin-bottom: 0.4rem;
+    width: 120px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 9px 2px rgba(0, 0, 0, .6);
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.output {
+    text-align: center;
+    width: 500px;
+    padding: 1rem 0;
+    color: rgb(44, 40, 40);
+}
+
+.result {
+    font-size: 4rem;
+    color: black;
+}
+
+img {
+    display: none;
+    margin-top: 1rem;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(33, 37, 25);
+    width: 100%;
+    padding: 0.8rem;
+    color: rgb(214, 208, 208);
+    text-align: center;
+    font-size: 1.3rem;
+}
