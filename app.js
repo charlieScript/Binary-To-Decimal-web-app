@@ -46,7 +46,7 @@ function showAlert(message) {
     // removes alert
     setTimeout(() => {
         removeAlert()
-    }, 3000)
+    }, 1000)
     // clear result also
     resultOutput.textContent = '🙄';
 }
